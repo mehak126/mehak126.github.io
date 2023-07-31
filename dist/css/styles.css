@@ -42,7 +42,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  /* --bs-primary-rgb: 189, 93, 56; */
+  --bs-primary-rgb:21, 76, 121;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -73,7 +74,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
+  /* --bs-link-color: #bd5d38; */
+  --bs-link-color: #3866bd;
   --bs-link-hover-color: #974a2d;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -121,12 +123,15 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   color: #343a40;
 }
 
+/* Main title size */
 h1, .h1 {
-  font-size: calc(1.725rem + 5.7vw);
+  /* font-size: calc(1.725rem + 5.7vw); */
+  font-size: calc(1rem + 5vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 6rem;
+    /* font-size: 6rem; */
+    font-size: 4rem;
   }
 }
 
@@ -8034,10 +8039,11 @@ textarea.form-control-lg {
   word-break: break-word !important;
 }
 
+/* Color for main heading */
 /* rtl:end:remove */
 .text-primary {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  /* --bs-text-opacity: 1; */
+  /* color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; */
 }
 
 .text-secondary {
@@ -10855,6 +10861,7 @@ h1, .h1 {
   line-height: 1;
 }
 
+/* About page font size */
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
