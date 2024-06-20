@@ -26,7 +26,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#eval">Benchmarking LLMs</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -67,7 +67,7 @@
                         </video>
 
 
-                        NutriBench is constructed from the FoodData Central (FDC), the food composition information
+                        NutriBench is constructed from FoodData Central (FDC), the food composition information
                         center of the US Department of Agriculture (USDA). We utilize GPT-3.5 to generate natural
                         language meal descriptions from food items sampled from a cleaned and filtered FDC. We also
                         conduct two rounds of human verification to ensure the quality of NutriBench. The image below
@@ -93,31 +93,47 @@
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
                     <h2>Benchmarking LLMs on Carbohyrate Estimation</h2>
-                    <p class="lead">We conducted an extensive evaluation of seven popular and state-of-the-art Large
-                        Language Models (LLMs), including GPT-3.5, Llama-3, and a medical domain-specific model with
-                        standard, Chain-of-Thought and Retrieval-Augmented Generation strategies on NutriBench for
-                        carbohydrate estimation. We also conducted a human study involving expert and non-expert
-                        participants and found that LLMs can provide more accurate and faster predictions over a range
-                        of complex queries. We present a thorough analysis and comparison of different LLMs,
-                        highlighting the opportunities and challenges of using LLMs for nutrition estimation in
-                        real-life scenarios.</p>
+                    <p class="lead">We benchmark the performance of seven state-of-the-art LLMs (GPT-3.5, Llama2-7B/70B,
+                        Llama3-8B/70B, Alpaca-7B, MedAlpaca-7B) on the task of carbohydrate estimation with NutriBench.
+                        We further employ four prompting strategies including (1) Baseline instructional prompting, (2)
+                        Chain-of-Thought (CoT), (3) Retrieval Augmented Generation (RAG), and (4) RAG+CoT. The image
+                        below shows the output by GPT-3.5 for the four prompting strategies for a NutriBench query.
+
+                        <br><br>
+                        <img class="img-fluid rounded mb-4 mb-lg-0" src="./nutribench_template/dist/assets/example.jpg"
+                            alt="Example" width="1000" height="500">
+
+                        <br><br>
+
+
+                        Across all models, prompting methods, and data splits, we conducted 300 experiments to provide a
+                        comprehensive insight into the current capabilities of LLMs in nutrition estimation. We also
+                        conducted a human study involving expert and non-expert participants and found that LLMs can
+                        provide more accurate and faster predictions over a range of complex queries. The image below
+                        summarizes the results of our experiments, plotting the accuracy (absolute error < 7g) and
+                            answer rate for all the methods on NutriBench. GPT-3.5 with CoT prompting achieves the
+                            highest accuracy of 51.48%, with an answer rate of 89.80%. <br><br>
+                            <img class="img-fluid rounded mb-4 mb-lg-0"
+                                src="./nutribench_template/dist/assets/results.jpg" alt="Example" width="600"
+                                height="300">
+
+                            <br><br>
+                    </p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Contact section-->
-    <!-- <section id="contact">
+    <section id="contact">
         <div class="container px-4">
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
-                    <h2>Contact us</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat
-                        voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et
-                        repudiandae ipsa exercitationem, in, quo totam.</p>
+                    <h2>Contact</h2>
+                    <p class="lead">For any questions, please contact the authors at {dongx1997,mdhaliwal}@ucsb.edu</p>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- Footer-->
     <footer class="py-5 bg-dark">
         <div class="container px-4">
