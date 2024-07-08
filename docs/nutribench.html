@@ -62,16 +62,17 @@
                         used to evaluate and benchmark Large Language Models (LLMs) on the task of nutrition estimation.
                     </p>
 
-                    <video class="img-fluid rounded mb-4 mb-lg-0" controls autoplay loop muted poster="demo_cover"
-                        style="padding-top: 2rem; padding-bottom: 2rem;">
+                    <video class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block" controls autoplay loop muted poster="demo_cover"
+                        style="padding-top: 2rem; padding-bottom: .75rem;">
                         <source src="./nutribench_template/dist/assets/demo_vid.mp4" type="video/mp4">
                         Your browser does not support the video.
                     </video>
 
-                    <p style="font-size: 1.0rem; text-align: center;">This video shows examples of NutriBench queries
-                        and responses by GPT-3.5 with Chain-of-Thought (CoT) prompting for carbohydrate estimation. </p>
+                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This video shows examples of NutriBench queries
+                        and responses by GPT-3.5 with Chain-of-Thought (CoT) prompting for carbohydrate estimation.</em></p>
 
 
+                    <h3>NutriBench is based on USDA data and is human verified.</h3>
                     <p class="lead">NutriBench is constructed from FoodData Central (FDC), the food composition
                         information
                         center of the US Department of Agriculture (USDA). We utilize GPT-3.5 to generate natural
@@ -80,13 +81,14 @@
                         two rounds of human verification, which include manually inspecting and editing the queries, to
                         ensure the quality of NutriBench. </p>
 
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="./nutribench_template/dist/assets/Pipeline.jpeg"
-                        alt="NutriBench Construction Pipeline" width="700" height="200"
-                        style="padding-top: 2rem; padding-bottom: 2rem;">
+                    <img class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block" src="./nutribench_template/dist/assets/Pipeline.jpeg"
+                        alt="NutriBench Construction Pipeline"
+                        style="padding-top: 2rem; padding-bottom: .75rem;">
 
-                    <p style="font-size: 1.0rem; text-align: center;">This image shows the end-to-end construction
-                        pipeline of NutriBench.</p>
+                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This image shows the end-to-end construction
+                        pipeline of NutriBench.</em></p>
 
+                    <h3>NutriBench is built for real world complexity.</h3>    
                     <p class="lead">NutriBench is divided into 15 subsets varying in complexity based on the number,
                         servings, and
                         popularity of the food items in the meals and the specificity of serving size descriptions. This
@@ -115,24 +117,26 @@
                         <li>RAG+CoT</li>
                     </ul>
 
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="./nutribench_template/dist/assets/example.jpg"
-                        alt="Example" width="1000" height="500" style="padding-top: 2rem; padding-bottom: 2rem;">
+                    <img class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block" src="./nutribench_template/dist/assets/example.jpg"
+                        alt="Example" style="padding-top: 2rem; padding-bottom: .75rem;">
 
-                    <p style="font-size: 1.0rem; text-align: center;">This image shows the output by GPT-3.5 for the
+                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This image shows the output by GPT-3.5 for the
                         four prompting strategies for a NutriBench
-                        query.</p>
-
+                        query.</em></p>
+                    
+                    <h3>LLMs can provide more accurate and faster predictions over a range of complex queries with NutriBench.</h3>
                     <p class="lead">
                         Across all models, prompting methods, and data splits, we conducted 300 experiments to provide a
                         comprehensive insight into the current capabilities of LLMs in nutrition estimation. We also
                         conducted a human study involving expert and non-expert participants and found that LLMs can
                         provide more accurate and faster predictions over a range of complex queries. GPT-3.5 with CoT
                         prompting achieves the highest accuracy of 51.48%, with an answer rate of 89.80%. </p>
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="./nutribench_template/dist/assets/results.jpg"
-                        alt="Example" width="600" height="300" style="padding-top: 2rem; padding-bottom: 2rem;">
-                    <p style="font-size: 1.0rem; text-align: center;">This image summarizes the results of our
+
+                    <img class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block" src="./nutribench_template/dist/assets/results.jpg"
+                        alt="Example" style="padding-top: 2rem; padding-bottom: .75rem;">
+                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This image summarizes the results of our
                         experiments, plotting the accuracy (absolute error < 7g) and answer rate for all the methods on
-                            NutriBench.</p>
+                            NutriBench.</em></p>
 
                     </p>
                 </div>
