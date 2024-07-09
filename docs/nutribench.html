@@ -10,8 +10,7 @@
     <title>NutriBench: the first dataset for evaluating LLMs at carbohydrate estimation</title>
     <meta property="og:title" content="NutriBench: the first dataset for evaluating LLMs at carbohydrate estimation" />
     <meta property="og:description" content="NutriBench is the first publicly available natural language meal description based
-    nutrition benchmark."
-    <meta property="og:type" content="website" />
+    nutrition benchmark." <meta property="og:type" content="website" />
     <meta property="og:url" content="https://mehak126.github.io/nutribench.html" />
     <meta property="og:image" content="https://mehak126.github.io/nutribench_template/dist/assets/results.jpg" />
     <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
@@ -65,14 +64,16 @@
                         used to evaluate and benchmark Large Language Models (LLMs) on the task of nutrition estimation.
                     </p>
 
-                    <video class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block" controls autoplay loop muted poster="demo_cover"
-                        style="padding-top: 2rem; padding-bottom: .75rem;">
+                    <video class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block" controls autoplay loop muted
+                        poster="demo_cover" style="padding-top: 2rem; padding-bottom: .75rem;">
                         <source src="./nutribench_template/dist/assets/demo_vid.mp4" type="video/mp4">
                         Your browser does not support the video.
                     </video>
 
-                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This video shows examples of NutriBench queries
-                        and responses by GPT-3.5 with Chain-of-Thought (CoT) prompting for carbohydrate estimation.</em></p>
+                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This video shows examples
+                            of NutriBench queries
+                            and responses by GPT-3.5 with Chain-of-Thought (CoT) prompting for carbohydrate
+                            estimation.</em></p>
 
 
                     <h3>NutriBench is based on USDA data and is human verified.</h3>
@@ -84,19 +85,20 @@
                         two rounds of human verification, which include manually inspecting and editing the queries, to
                         ensure the quality of NutriBench. </p>
 
-                    <img class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block" src="./nutribench_template/dist/assets/Pipeline.jpeg"
-                        alt="NutriBench Construction Pipeline"
+                    <img class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block"
+                        src="./nutribench_template/dist/assets/Pipeline.jpeg" alt="NutriBench Construction Pipeline"
                         style="padding-top: 2rem; padding-bottom: .75rem;">
 
-                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This image shows the end-to-end construction
-                        pipeline of NutriBench.</em></p>
+                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This image shows the
+                            end-to-end construction
+                            pipeline of NutriBench.</em></p>
 
-                    <h3>NutriBench is built for real world complexity.</h3>    
-                    <p class="lead">NutriBench is divided into 15 subsets varying in complexity based on the number,
-                        servings, and
-                        popularity of the food items in the meals and the specificity of serving size descriptions. This
-                        ensures that the benchmark represents various challenging scenarios likely to be encountered in
-                        the real world.
+                    <h3>NutriBench is built for real world complexity.</h3>
+                    <p class="lead">NutriBench is divided into 15 subsets varying in meal description complexity. The
+                        subsets include meal descriptions differing in the number of food items (1-3), the type of
+                        servings (single or multiple), the serving size descriptions (natural, such as '1 cup', or
+                        metric, such as '50g'), as well as the popularity of food items. This ensures that the benchmark
+                        represents the complexity of real world nutrition estimation.
                     </p>
                 </div>
             </div>
@@ -108,7 +110,7 @@
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
                     <h5>ABOUT THE EVALUATION</h5>
-                    <br> 
+                    <br>
                     <h2>We benchmark seven state-of-the-art LLMs on the task of carbohydrate
                         estimation with NutriBench.
                     </h2>
@@ -122,14 +124,17 @@
                         <li>RAG+CoT</li>
                     </ul>
 
-                    <img class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block" src="./nutribench_template/dist/assets/example.jpg"
-                        alt="Example" style="padding-top: 2rem; padding-bottom: .75rem;">
+                    <img class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block"
+                        src="./nutribench_template/dist/assets/example.jpg" alt="Example"
+                        style="padding-top: 2rem; padding-bottom: .75rem;">
 
-                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This image shows the output by GPT-3.5 for the
-                        four prompting strategies for a NutriBench
-                        query.</em></p>
-                    
-                    <h3>LLMs with NutriBench are more accurate and faster at carbohydrate estimation tasks than human nutritionist.</h3>
+                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This image shows the
+                            output by GPT-3.5 for the
+                            four prompting strategies for a NutriBench
+                            query.</em></p>
+
+                    <h3>LLMs with NutriBench are more accurate and faster at carbohydrate estimation tasks than human
+                        nutritionist.</h3>
                     <p class="lead">
                         Across all models, prompting methods, and data splits, we conducted 300 experiments to provide a
                         comprehensive insight into the current capabilities of LLMs in nutrition estimation. We also
@@ -137,11 +142,14 @@
                         provide more accurate and faster predictions over a range of complex queries. GPT-3.5 with CoT
                         prompting achieves the highest accuracy of 51.48%, with an answer rate of 89.80%. </p>
 
-                    <img class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block" src="./nutribench_template/dist/assets/results.jpg"
-                        alt="Example" style="padding-top: 2rem; padding-bottom: .75rem;">
-                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This image summarizes the results of our
-                        experiments, plotting the accuracy (absolute error < 7g) and answer rate for all the methods on
-                            NutriBench.</em></p>
+                    <img class="img-fluid rounded mb-4 mb-lg-0 mx-auto d-block"
+                        src="./nutribench_template/dist/assets/results.jpg" alt="Example"
+                        style="padding-top: 2rem; padding-bottom: .75rem;">
+                    <p style="font-size: 1.0rem; text-align: left; padding-bottom: 2rem;"><em>This image summarizes the
+                            results of our
+                            experiments, plotting the accuracy (absolute error < 7g) and answer rate for all the methods
+                                on NutriBench.</em>
+                    </p>
 
                     </p>
                 </div>
