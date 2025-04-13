@@ -30,6 +30,7 @@
                     class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">Dataset</a></li>
                     <li class="nav-item"><a class="nav-link" href="#eval">Benchmarking LLMs</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -48,11 +49,27 @@
             </p>
             <!-- <a class="btn btn-lg btn-dark" href="https://github.com/DongXzz/NutriBench">Get the data</a> -->
             <div class="container mt-4">
-                <div class="button-container">
-                    <a class="btn btn-lg btn-dark" href="https://github.com/DongXzz/NutriBench">Get the data</a>
-                    <a class="btn btn-lg btn-dark" href="https://arxiv.org/abs/2407.12843">Read the paper</a>
+                <div class="button-container d-flex gap-3 justify-content-center">
+                    <!-- Hugging Face Button -->
+                    <a class="btn btn-dark btn-sm d-flex align-items-center justify-content-center gap-2" href="https://huggingface.co/datasets/dongx1997/NutriBench" target="_blank" style="width: 120px;">
+                        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" style="height: 20px;">
+                        <span>Dataset</span>
+                    </a>
+            
+                    <!-- GitHub Button -->
+                    <a class="btn btn-dark btn-sm d-flex align-items-center justify-content-center gap-2" href="https://github.com/DongXzz/NutriBench" target="_blank" style="width: 120px;">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height: 20px;">
+                        <span>GitHub</span>
+                    </a>
+            
+                    <!-- Paper Button -->
+                    <a class="btn btn-dark btn-sm d-flex align-items-center justify-content-center gap-2" href="https://arxiv.org/abs/2407.12843" target="_blank" style="width: 120px;">
+                        <span style="font-size: 1.2rem;">📄</span>
+                        <span>Paper</span>
+                    </a>
                 </div>
-            </div>
+            </div>                                  
+            
             <!-- New Section for LLM-Based Carb Estimation -->
             <div class="mt-4 p-3 rounded" style="background-color: #959f7d; max-width: 620px; margin: auto;">
                 <h3 class="fw-bold text-center">Try Our LLM-Based Carb Estimation!</h3>
@@ -61,6 +78,34 @@
             </div>
         </div>
     </header>
+    <!-- News section-->
+    <section class="bg-light" id="news">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h5>NEWS</h5>
+                    <br>
+                    <h2>Updates from the NutriBench team</h2>
+                    <ul class="lead">
+                        <li style="margin-bottom: 1rem;">[2025/04/08]: <strong>NutriBench v2</strong> is released!
+                            Now supporting <strong>24 countries</strong> with improved <strong>diversity</strong> in meal descriptions. Find the data here: <a href="https://huggingface.co/datasets/dongx1997/NutriBench" target="_blank" style="margin-left: 10px;">
+                            <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" style="height: 20px; vertical-align: middle;"> </a> 
+                        <a href="https://github.com/DongXzz/NutriBench" target="_blank" style="margin-left: 10px;">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="height: 20px; vertical-align: middle;">
+                        </a></li>
+
+                        <li style="margin-bottom: 1rem;">[2025/03/16] We’ve launched LLM-Based Carb Estimation via Text Message!
+                        <p>Text your meal description to <strong>+1 (866) 698-9328</strong> or send a message via WhatsApp to <strong>+1 (555) 730-0221</strong>.</p></li>
+
+                        <li style="margin-bottom: 1rem;">[2025/02/20] NutriBench accepted at <strong>ICLR 2025!</strong>
+
+                            <li style="margin-bottom: 1rem;">[2024/10/16] Released <strong>NutriBench v1</strong>- the first benchmark for evaluating nutrition estimation from meal descriptions.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About section-->
     <section id="about">
         <div class="container px-4">
