@@ -1,38 +1,38 @@
 /* ABOUT */
 /* Increase font size for all main page/post content */
-// .post > article {
-//   font-size: 20px !important;   /* try 18–20px */
-//   line-height: 1.7;
-// }
-// /* Make sure paragraphs inside the article follow the same size */
-// .post > article p {
-//   font-size: 1em !important;
-// }
-// /* Add more space between profile image and About text */
-// .profile {
-//   margin-right: 2rem !important;   /* when image is on the left */
-//   margin-left: 2rem !important;    /* when image is on the right */
-//   margin-top: 1.5rem;
-// }
-// /* Prevent about text from wrapping under the profile image */
-// .profile.float-left + .clearfix {
-//   margin-left: 280px;   /* adjust to the width of your profile image */
-// }
+.post > article {
+  font-size: 18px !important;   /* try 18–20px */
+  line-height: 1.7;
+}
+/* Make sure paragraphs inside the article follow the same size */
+.post > article p {
+  font-size: 1em !important;
+}
+/* Add more space between profile image and About text */
+.profile {
+  margin-right: 2rem !important;   /* when image is on the left */
+  margin-left: 2rem !important;    /* when image is on the right */
+  margin-top: 1.5rem;
+}
+/* Prevent about text from wrapping under the profile image */
+.profile.float-left + .clearfix {
+  margin-left: 280px;   /* adjust to the width of your profile image */
+}
 /* Center more_info content under the profile image */
 .profile .more-info,
 .profile .more-info p {
   text-align: center !important;
 }
-// /* Style the profile icons */
-// .profile .more-info a {
-//   margin: 0 0.45rem;         /* spacing between icons */
-//   font-size: 1.65rem;        /* icon size */
-//   display: inline-block;
-// }
+/* Style the profile icons */
+.profile .more-info a {
+  margin: 0 0.45rem;         /* spacing between icons */
+  font-size: 1.65rem;        /* icon size */
+  display: inline-block;
+}
 
-// .profile .more-info i {
-//   font-size: 1.65rem;        /* ensures actual icon is bigger */
-// }
+.profile .more-info i {
+  font-size: 1.65rem;        /* ensures actual icon is bigger */
+}
 
 /* Make the email text smaller */
 .profile .more-info .email-row {
@@ -46,26 +46,26 @@
 }
 
 
-// /* NEWS */
-// /* Increase News table text size */
-// .news table,
-// .news th,
-// .news td,
-// .news .news-title {
-//   font-size: 18px !important;   /* try 17–20px */
-//   line-height: 1.5 !important;
-// }
-// /* Reduce vertical spacing between rows */
-// .news th,
-// .news td {
-//   padding-top: 0.2rem !important;
-//   padding-bottom: 0.2rem !important;
-// }
+/* NEWS */
+/* Increase News table text size */
+.news table,
+.news th,
+.news td,
+.news .news-title {
+  font-size: 17px !important;   /* try 17–20px */
+  line-height: 1.5 !important;
+}
+/* Reduce vertical spacing between rows */
+.news th,
+.news td {
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.2rem !important;
+}
 
-// /* Increase spacing between About text and News section */
-// .post .clearfix {
-//   margin-bottom: 2.5rem !important;   /* increase this value as needed */
-// }
+/* Increase spacing between About text and News section */
+.post .clearfix {
+  margin-bottom: 2.5rem !important;   /* increase this value as needed */
+}
 
 // /* NAVBAR */
 // /* Increase navbar link font size */
