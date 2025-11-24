@@ -10,13 +10,13 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: |
     <p style="margin:0; text-align:center;">
-      <a href="https://scholar.google.com/your-id" target="_blank">
+      <a href="https://scholar.google.com/citations?user=hgM0ZcEAAAAJ&hl=en&oi=ao" target="_blank">
         <i class="fa-solid fa-graduation-cap"></i>
       </a>
-      <a href="https://www.linkedin.com/in/your-id" target="_blank">
+      <a href="https://www.linkedin.com/in/mehak-preet/" target="_blank">
         <i class="fa-brands fa-linkedin"></i>
       </a>
-      <a href="https://github.com/your-id" target="_blank">
+      <a href="https://github.com/mehak126" target="_blank">
         <i class="fa-brands fa-github"></i>
       </a>
     </p>
