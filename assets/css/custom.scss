@@ -1,7 +1,7 @@
 /* ABOUT */
 /* Increase font size for all main page/post content */
 .post > article {
-  font-size: 18px !important;   /* try 18–20px */
+  font-size: 16px !important;   /* try 18–20px */
   line-height: 1.7;
 }
 /* Make sure paragraphs inside the article follow the same size */
@@ -24,15 +24,15 @@
   text-align: center !important;
 }
 /* Style the profile icons */
-.profile .more-info a {
-  margin: 0 0.45rem;         /* spacing between icons */
-  font-size: 1.65rem;        /* icon size */
-  display: inline-block;
-}
+// .profile .more-info a {
+//   margin: 0 0.45rem;         /* spacing between icons */
+//   font-size: 1.65rem;        /* icon size */
+//   display: inline-block;
+// }
 
-.profile .more-info i {
-  font-size: 1.65rem;        /* ensures actual icon is bigger */
-}
+// .profile .more-info i {
+//   font-size: 1.65rem;        /* ensures actual icon is bigger */
+// }
 
 /* Make the email text smaller */
 .profile .more-info .email-row {
@@ -52,7 +52,7 @@
 .news th,
 .news td,
 .news .news-title {
-  font-size: 17px !important;   /* try 17–20px */
+  font-size: 15px !important;   /* try 17–20px */
   line-height: 1.5 !important;
 }
 /* Reduce vertical spacing between rows */
