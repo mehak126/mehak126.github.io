@@ -1,38 +1,19 @@
 /* ABOUT */
 /* Increase font size for all main page/post content */
 .post > article {
-  font-size: 16px !important;   /* try 18–20px */
+  font-size: 16px !important;
   line-height: 1.7;
 }
 /* Make sure paragraphs inside the article follow the same size */
 .post > article p {
   font-size: 1em !important;
 }
-/* Add more space between profile image and About text */
-.profile {
-  margin-right: 2rem !important;   /* when image is on the left */
-  margin-left: 2rem !important;    /* when image is on the right */
-  margin-top: 1.5rem;
-}
-/* Prevent about text from wrapping under the profile image */
-.profile.float-left + .clearfix {
-  margin-left: 280px;   /* adjust to the width of your profile image */
-}
+
 /* Center more_info content under the profile image */
 .profile .more-info,
 .profile .more-info p {
   text-align: center !important;
 }
-/* Style the profile icons */
-// .profile .more-info a {
-//   margin: 0 0.45rem;         /* spacing between icons */
-//   font-size: 1.65rem;        /* icon size */
-//   display: inline-block;
-// }
-
-// .profile .more-info i {
-//   font-size: 1.65rem;        /* ensures actual icon is bigger */
-// }
 
 /* Make the email text smaller */
 .profile .more-info .email-row {
@@ -43,6 +24,41 @@
 .profile .more-info .email-row i {
   font-size: 0.9rem !important;
   margin-right: 0.2rem;
+}
+
+/* Desktop layout: profile floats left with margin and content offset */
+@media (min-width: 576px) {
+  .profile {
+    margin-right: 2rem !important;
+    margin-left: 0 !important;
+    margin-top: 1.5rem;
+  }
+
+  .profile.float-left + .clearfix {
+    margin-left: 280px;
+  }
+}
+
+/* Mobile layout: profile stacks above content, centered */
+@media (max-width: 575px) {
+  .profile {
+    float: none !important;
+    width: auto !important;
+    margin: 0 auto 1.5rem !important;
+    text-align: center;
+    display: block;
+  }
+
+  .profile img {
+    max-width: 160px;
+    width: auto !important;
+    display: block;
+    margin: 0 auto 0.5rem;
+  }
+
+  .profile.float-left + .clearfix {
+    margin-left: 0 !important;
+  }
 }
 
 
