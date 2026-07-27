@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-résumé",
-          title: "Résumé",
+        },{id: "nav-resume",
+          title: "resume",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -381,8 +381,11 @@ ninja.data = [{
           section: "News",},{id: "news-our-work-on-nutrition-estimation-using-multimodal-llms-is-now-published-in-nature-communications-medicine",
           title: 'Our work on nutrition estimation using multimodal LLMs is now published in Nature...',
           description: "",
-          section: "News",},{id: "news-new-preprint-on-arxiv-exploring-the-role-of-multilinguality-in-llm-post-training-takeaway-english-is-not-all-you-need",
-          title: 'New preprint on ArXiv: Exploring the Role of Multilinguality in LLM Post-Training. Takeaway:...',
+          section: "News",},{id: "news-presenting-our-work-on-confidence-estimation-for-quantitative-prediction-at-the-eiml-workshop-at-icml-see-you-in-seoul",
+          title: 'Presenting our work on confidence estimation for quantitative prediction at the EIML workshop...',
+          description: "",
+          section: "News",},{id: "news-our-work-on-multilinguality-in-llm-post-training-is-accepted-to-colm-2026-takeaway-english-is-not-all-you-need",
+          title: 'Our work on multilinguality in LLM post-training is accepted to COLM 2026. Takeaway:...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
